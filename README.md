@@ -49,6 +49,7 @@ These are the scenarios:
     <td>Open Scenario</td>
     <td>Participants were asked to think about another situation in which they would like to use the perfect voice assistant.</td>
   </tr>
+</table>
 
 ## Questionnaires
 In addition to writing down dialogues between a user and a voice assistant, we also asked participants about their experience with existing voice assistants and for demographic infromation. Furthermore, participants filled out the 60 items Big Five Inventory-2 personality questionnaire by <a href="https://psycnet.apa.org/record/2016-17156-001">Soto and John (2017)</a>. 
@@ -56,6 +57,7 @@ In addition to writing down dialogues between a user and a voice assistant, we a
 ## Participants
 
 
+## Reference
 A full description of the data, methodology and analyses as well as sample conversations and user instructions can be found in our EMNLP paper cited below. (Please cite in your work where relevant.)
 
 @inproceedings{byrne-etal-2019-taskmaster, title = {Taskmaster-1:Toward a Realistic and Diverse Dialog Dataset}, author = {Bill Byrne and Karthik Krishnamoorthi and Chinnadhurai Sankar and Arvind Neelakantan and Daniel Duckworth and Semih Yavuz and Ben Goodrich and Amit Dubey and Kyu-Young Kim and Andy Cedilnik}, booktitle = {2019 Conference on Empirical Methods in Natural Language Processing and 9th International Joint Conference on Natural Language Processing}, address = {Hong Kong}, year = {2019} }
