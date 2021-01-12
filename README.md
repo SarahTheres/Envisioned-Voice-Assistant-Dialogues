@@ -55,64 +55,34 @@ These are the scenarios:
 In addition to writing down dialogues between a user and a voice assistant, we also asked participants about their experience with existing voice assistants and for demographic infromation. Furthermore, participants filled out the 60 items Big Five Inventory-2 personality questionnaire by <a href="https://psycnet.apa.org/record/2016-17156-001">Soto and John (2017)</a>. 
 
 ## Participants
-
+We recruited participants using the crowdsourcing web platform <a href="https://www.prolific.co">Prolific. After excluding three participants due to incomplete answers, our sample consisted of 205 participants from the UK (48.8% male, 50.7% female, 0.5% non-binary, mean age 36.2 years, range: 18--80 years). 
 
 ## Reference
-A full description of the data, methodology and analyses as well as sample conversations and user instructions can be found in our EMNLP paper cited below. (Please cite in your work where relevant.)
+A full description of our research design, data collection, and analyses can be found in the paper below. Please cite this paper in your work where relevant. 
 
-@inproceedings{byrne-etal-2019-taskmaster, title = {Taskmaster-1:Toward a Realistic and Diverse Dialog Dataset}, author = {Bill Byrne and Karthik Krishnamoorthi and Chinnadhurai Sankar and Arvind Neelakantan and Daniel Duckworth and Semih Yavuz and Ben Goodrich and Amit Dubey and Kyu-Young Kim and Andy Cedilnik}, booktitle = {2019 Conference on Empirical Methods in Natural Language Processing and 9th International Joint Conference on Natural Language Processing}, address = {Hong Kong}, year = {2019} }
+```
+@inproceedings{voelkel2021,
+author = {V\"{o}lkel, Sarah Theres and Buschek, Daniel and Eiband, Malin and Cowan, Benajming R. and Hussmann, Heinrich},
+title = {Eliciting and Analysing Users' Envisioned Dialogues with Perfect Voice Assistants},
+year = {2021},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+booktitle = {Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},
+location = {Yokohama, Japan},
+series = {CHI '21}
+}
+```
 
-EXPLANATION OF DATA FILES
+## Copyright
+This is the work of Sarah Theres Völkel, Daniel Buschek, Malin Eiband, Benjamin R. Cowan, and Heinrich Hussmann from LMU Munich, University of Bayreuth, and University College Dublin, made available under the <a href="https://creativecommons.org/licenses/by/4.0/>Creative Commons Attribution 4.0 License</a>. 
 
-The bulk of the corpus is provided in JSON format in two data files. self-dialogs.json contains all the one-person dialogs. woz-dialogs.json contains all the WOz dialogs.
 
-One-person dialogs can be divided into train/dev/test sets by matching the dialog IDs from the following files:
+# Explanation of Data Files
 
-train.csv
-dev.csv
-test.csv
-Additionally, the following files are provided to describe the data structure and annotation schema.
 
-sample.json - A sample conversation describing the format of the data.
-ontology.json - Schema file describing the annotation ontology.
-Each conversation in the data file has the following structure:
 
-conversationId: A universally unique identifier with the prefix 'dlg-'. The ID has no meaning.
-utterances: An array of utterances that make up the conversation.
-instructionId: A reference to the file(s) containing the user (and, if applicable, agent) instructions for this conversation.
-Each utterance has the following fields:
-
-index: A 0-based index indicating the order of the utterances in the conversation.
-speaker: Either USER or ASSISTANT, indicating which role generated this utterance.
-text: The raw text of the utterance. In case of self dialogs, this is written by the crowdsourced worker. In case of the WOz dialogs, 'ASSISTANT' turns are written and 'USER' turns are transcribed from the spoken recordings of crowdsourced workers.
-segments: An array of various text spans with semantic annotations.
-Each segment has the following fields:
-
-startIndex: The position of the start of the annotation in the utterance text.
-endIndex: The position of the end of the annotation in the utterance text.
-text: The raw text that has been annotated.
-annotations: An array of annotation details for this segment.
-Each annotation has a single field:
-
-name: The annotation name.
-EXPLANATION OF ONTOLOGY
-
-Dialog annotations are based on the API calls associated with each type of task-based dialog. The full JSON description of the ontology can be found in ontology.json. Each conversation was annotated by two workers. Both annotations are included in this collection.
-
-The API-based annotations can be divided into two categories:
-
-API argument labels: These refer to the parameter values specified for a given transaction. For example, a pizza order must minimally provide values for store name, number of pizzas, sizes, topping(s) and sometimes crust type (known as 'required' parameters in ontology.json). Named pizzas like 'veggie lovers' come with a predetermined set of toppings and so only the number pizzas and sizes are required. Users may also specify optional arguments (known as 'optional' parameters in ontology.json) such as 'extra cheese' or substitutions like 'pesto instead of tomato sauce', omissions like 'no tomatoes', etc.
-Transaction status labels: In addition to the parameter values, the success or failure of the transaction itself is labeled with 'accept' or 'reject'. If the dialog only makes general reference to a transaction, e.g. 'OK your pizza has been ordered' or 'Sorry we just discontinued that pizza so it's no longer available', the label 'accept' or 'reject' is added to the vertical name, i.e. 'pizza_ordering.accept'. However, in most cases these labels are added to the individual parameters involved in the transaction, whether accepted or rejected. For example, in 'It looks like we are out of pepperoni tonight', 'pepperoni' would be labeled 'type.topping.reject' while the rest of the values would get the 'accept' label.
-Please note: 146 dialogs were left unannotated due to the fact that their content has to do more with preference discussion than task completion. We will update the corpus with these dialgos flagged as such.
-
-API VALIDATION
-
-The ontology classifies API arguments for each vertical into 'required' and 'optional'. For example. 'name.restaurant' is a required parameter whereas 'type.seating' is optional during a restaurant reservation. Conversations that did not contain any of the 'required' parameters were removed from the released dataset.
-
-Additionally, no requirement was imposed on the minimum number of 'required' parameters to be eligible for being part of the released dataset. A common theme among conversations with missing 'required' parameters was the worker's assumption that they were talking to the business directly. For example, in pizza ordering dialogs workers sometimes failed to give a business name. Similar mistakes are seen with the origin or destination fields for ride booking, shop name for auto repair, number of guests of table reservations, etc.
-
-TRANSCRIPTION NOTES
-
+## Note on dialogues
 In a separate task, transcription of crowdsourced user utterances from the two-person dialogs were checked for errors but may still include an occasional typo, misspelling or ungrammatical sequence. In cases where a dialog failed to make sense, workers doing these corrections were given the freedom to insert or delete turns or replace entire phrases with language that made the dialog follow a more sensible path. Shorthand typing conventions originally used by the call center operators such as 'cuz', 'lol' and other non-standard English phrases were left as is. Disfluencies such as 'they um, they want Korean cuisine' were also usually transcribed as spoken, but sometimes transcribers corrected them.
 
+# Contact
 In case you have any comments or questions, please contact sarah.voelkel@ifi.lmu.de
