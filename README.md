@@ -64,7 +64,7 @@ You find three versions of our data set:
 - (2) **Preprocessed Data:** Original data including the calculated personality scores based on the BFI-2 questionnaire (`perfect-va_preprocessed-data_20-09-09.csv`)
 - (3) **Readable Dialogues:** For reading the dialogues instead of data processing, we provide participants' IDs and the corresponding dialogues in a readable format (`perfect-va_readable-dialogues_20-09-09.csv`)
 
-In addition, we provide detailed explanations of each item as well as answering option in the file `perfect-va_variable.csv`
+In addition, we provide detailed explanations of each item as well as answering option in the file `perfect-va_codebook.csv`
 
 ## Note on Data
 Please note that there are missing entires in the data set. Some participants forgot to indicate the speaker for a turn in the dialogue. Usually, the context makes clear who the speaker is but this should be considered for automatic data processing. Dialogues are provided in original spelling and thus, may include spelling or grammar mistakes.
