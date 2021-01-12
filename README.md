@@ -55,7 +55,7 @@ These are the scenarios:
 In addition to writing down dialogues between a user and a voice assistant, we also asked participants about their experience with existing voice assistants and for demographic infromation. Furthermore, participants filled out the 60 items Big Five Inventory-2 personality questionnaire by <a href="https://psycnet.apa.org/record/2016-17156-001">Soto and John (2017)</a>. 
 
 ## Participants
-We recruited participants using the crowdsourcing web platform <a href="https://www.prolific.co">Prolific. After excluding three participants due to incomplete answers, our sample consisted of 205 participants from the UK (48.8% male, 50.7% female, 0.5% non-binary, mean age 36.2 years, range: 18--80 years). 
+We recruited participants using the crowdsourcing web platform <a href="https://www.prolific.co">Prolific</a>. After excluding three participants due to incomplete answers, our sample consisted of 205 participants from the UK (48.8% male, 50.7% female, 0.5% non-binary, mean age 36.2 years, range: 18--80 years). 
 
 ## Reference
 A full description of our research design, data collection, and analyses can be found in the paper below. Please cite this paper in your work where relevant. 
