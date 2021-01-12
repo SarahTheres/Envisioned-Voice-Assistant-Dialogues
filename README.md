@@ -74,7 +74,7 @@ series = {CHI '21}
 ```
 
 ## Copyright
-This is the work of Sarah Theres Völkel, Daniel Buschek, Malin Eiband, Benjamin R. Cowan, and Heinrich Hussmann from LMU Munich, University of Bayreuth, and University College Dublin, made available under the <a href="https://creativecommons.org/licenses/by/4.0/>Creative Commons Attribution 4.0 License</a>. 
+This is the work of Sarah Theres Völkel, Daniel Buschek, Malin Eiband, Benjamin R. Cowan, and Heinrich Hussmann from LMU Munich, University of Bayreuth, and University College Dublin, made available under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>. 
 
 
 # Explanation of Data Files
