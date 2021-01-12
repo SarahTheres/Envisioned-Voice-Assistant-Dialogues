@@ -1,0 +1,912 @@
+Codebook 
+6 Seite: English proficiency (PGID 4587859)
+
+How well do you speak English? (q_8404170 - Typ 111)
+v_740	english_proficiency	int	English proficiency
+1	No knowledge of English
+2	Speak poorly (beginner knowledge)
+3	Fairly well (intermediate knowledge)
+4	Well (advanced knowledge)
+5	Very well (proficient in English)
+6	Native speaker
+
+
+
+7 Seite: Experience with using voice assistants (PGID 4591339)
+
+Have you ever interacted with any of the following voice assistants? If so
+v_741	voice_assistant_google	int	Google Assistant
+1	Never
+2	Once
+3	Few times
+4	Monthly
+5	Weekly
+6	Daily
+v_743	voice_assistant_siri	int	Apple's Siri
+1	Never
+2	Once
+3	Few times
+4	Monthly
+5	Weekly
+6	Daily
+v_744	voice_assistant_alexa	int	Amazon Alexa
+1	Never
+2	Once
+3	Few times
+4	Monthly
+5	Weekly
+6	Daily
+v_745	voice_assistant_cortana	int	Microsoft's Cortana
+1	Never
+2	Once
+3	Few times
+4	Monthly
+5	Weekly
+6	Daily
+v_746	voice_assistant_other	int	Others (please specify)
+1	Never
+2	Once
+3	Few times
+4	Monthly
+5	Weekly
+6	Daily
+v_747	voice_assistant_other_text	varchar	Others (please specify)
+
+
+What do you tend to use the voice assistants for? (q_8411005 - Typ 142)
+v_748	voice_assistant_use	blob	Textbereich
+
+
+
+8 Seite: Task (PGID 4584892)
+
+
+9 Seite: Voice Assistant Name (PGID 4586285)
+
+"Would you like to give your ""perfect"" voice assistant a name? (q_8400007 - Typ 111)"
+v_12	voice_assistant_name	int	Voice Assistant Name
+1	I do not want to name my perfect voice assistant
+2	I would like to give my perfect voice assistant the following name:
+v_13	voice_assistant_name_other	varchar	I would like to give my perfect voice assistant the following name:
+
+
+
+10.1 Seite: Scenario: Search (PGID 4587517)
+
+Hier platzieren Sie den Text für Ihre Frage. (q_8375413 - Typ 911)
+v_6	search_line1_speaker	blob	search_line1_speaker
+v_7	search_line1_content	blob	search_line1_content
+v_8	search_line2_speaker	blob	search_line2_speaker
+v_9	search_line2_content	blob	search_line2_content
+v_10	search_line3_speaker	blob	search_line3_speaker
+v_17	search_line3_content	blob	search_line3_content
+v_18	search_line4_speaker	blob	search_line4_speaker
+v_19	search_line4_content	blob	search_line4_content
+v_20	search_line5_speaker	blob	search_line5_speaker
+v_21	search_line5_content	blob	search_line5_content
+v_22	search_line6_speaker	blob	search_line6_speaker
+v_23	search_line6_content	blob	search_line6_content
+v_24	search_line7_speaker	blob	search_line7_speaker
+v_25	search_line7_content	blob	search_line7_content
+v_26	search_line8_speaker	blob	search_line8_speaker
+v_27	search_line8_content	blob	search_line8_content
+v_28	search_line9_speaker	blob	search_line9_speaker
+v_29	search_line9_content	blob	search_line9_content
+v_30	search_line10_speaker	blob	search_line10_speaker
+v_31	search_line10_content	blob	search_line10_content
+v_32	search_line11_speaker	blob	search_line11_speaker
+v_33	search_line11_content	blob	search_line11_content
+v_34	search_line12_speaker	blob	search_line12_speaker
+v_35	search_line12_content	blob	search_line12_content
+v_36	search_line13_speaker	blob	search_line13_speaker
+v_37	search_line13_content	blob	search_line13_content
+v_38	search_line14_speaker	blob	search_line14_speaker
+v_39	search_line14_content	blob	search_line14_content
+v_40	search_line15_speaker	blob	search_line15_speaker
+v_41	search_line15_content	blob	search_line15_content
+v_42	search_line16_speaker	blob	search_line16_speaker
+v_43	search_line16_content	blob	search_line16_content
+v_44	search_line17_speaker	blob	search_line17_speaker
+v_45	search_line17_content	blob	search_line17_content
+v_46	search_line18_speaker	blob	search_line18_speaker
+v_47	search_line18_content	blob	search_line18_content
+v_48	search_line19_speaker	blob	search_line19_speaker
+v_49	search_line19_content	blob	search_line19_content
+v_50	search_line20_speaker	blob	search_line20_speaker
+v_51	search_line20_content	blob	search_line20_content
+
+
+
+10.2 Seite: Scenario: Music (PGID 4587516)
+
+Hier platzieren Sie den Text für Ihre Frage. (q_8403213 - Typ 911)
+v_120	music_line1_speaker	blob	music_line1_speaker
+v_121	music_line1_content	blob	music_line1_content
+v_122	music_line2_speaker	blob	music_line2_speaker
+v_123	music_line2_content	blob	music_line2_content
+v_124	music_line3_speaker	blob	music_line3_speaker
+v_125	music_line3_content	blob	music_line3_content
+v_126	music_line4_speaker	blob	music_line4_speaker
+v_127	music_line4_content	blob	music_line4_content
+v_128	music_line5_speaker	blob	music_line5_speaker
+v_129	music_line5_content	blob	music_line5_content
+v_130	music_line6_speaker	blob	music_line6_speaker
+v_131	music_line6_content	blob	music_line6_content
+v_132	music_line7_speaker	blob	music_line7_speaker
+v_133	music_line7_content	blob	music_line7_content
+v_134	music_line8_speaker	blob	music_line8_speaker
+v_135	music_line8_content	blob	music_line8_content
+v_136	music_line9_speaker	blob	music_line9_speaker
+v_137	music_line9_content	blob	music_line9_content
+v_138	music_line10_speaker	blob	music_line10_speaker
+v_139	music_line10_content	blob	music_line10_content
+v_141	music_line11_speaker	blob	music_line11_speaker
+v_143	music_line11_content	blob	music_line11_content
+v_145	music_line12_speaker	blob	music_line12_speaker
+v_147	music_line12_content	blob	music_line12_content
+v_149	music_line13_speaker	blob	music_line13_speaker
+v_151	music_line13_content	blob	music_line13_content
+v_153	music_line14_speaker	blob	music_line14_speaker
+v_155	music_line14_content	blob	music_line14_content
+v_157	music_line15_speaker	blob	music_line15_speaker
+v_159	music_line15_content	blob	music_line15_content
+v_161	music_line16_speaker	blob	music_line16_speaker
+v_163	music_line16_content	blob	music_line16_content
+v_165	music_line17_speaker	blob	music_line17_speaker
+v_167	music_line17_content	blob	music_line17_content
+v_169	music_line18_speaker	blob	music_line18_speaker
+v_171	music_line18_content	blob	music_line18_content
+v_173	music_line19_speaker	blob	music_line19_speaker
+v_175	music_line19_content	blob	music_line19_content
+v_177	music_line20_speaker	blob	music_line20_speaker
+v_179	music_line20_content	blob	music_line20_content
+
+
+
+10.3 Seite: Scenario: Internet of Things (PGID 4587519)
+
+Hier platzieren Sie den Text für Ihre Frage. (q_8403215 - Typ 911)
+v_140	iot_line1_speaker	blob	iot_line1_speaker
+v_142	iot_line1_content	blob	iot_line1_content
+v_144	iot_line2_speaker	blob	iot_line2_speaker
+v_146	iot_line2_content	blob	iot_line2_content
+v_148	iot_line3_speaker	blob	iot_line3_speaker
+v_150	iot_line3_content	blob	iot_line3_content
+v_152	iot_line4_speaker	blob	iot_line4_speaker
+v_154	iot_line4_content	blob	iot_line4_content
+v_156	iot_line5_speaker	blob	iot_line5_speaker
+v_158	iot_line5_content	blob	iot_line5_content
+v_160	iot_line6_speaker	blob	iot_line6_speaker
+v_162	iot_line6_content	blob	iot_line6_content
+v_164	iot_line7_speaker	blob	iot_line7_speaker
+v_166	iot_line7_content	blob	iot_line7_content
+v_168	iot_line8_speaker	blob	iot_line8_speaker
+v_170	iot_line8_content	blob	iot_line8_content
+v_172	iot_line9_speaker	blob	iot_line9_speaker
+v_174	iot_line9_content	blob	iot_line9_content
+v_176	iot_line10_speaker	blob	iot_line10_speaker
+v_178	iot_line10_content	blob	iot_line10_content
+v_180	iot_line11_speaker	blob	iot_line11_speaker
+v_181	iot_line11_content	blob	iot_line11_content
+v_182	iot_line12_speaker	blob	iot_line12_speaker
+v_183	iot_line12_content	blob	iot_line12_content
+v_184	iot_line13_speaker	blob	iot_line13_speaker
+v_185	iot_line13_content	blob	iot_line13_content
+v_186	iot_line14_speaker	blob	iot_line14_speaker
+v_187	iot_line14_content	blob	iot_line14_content
+v_188	iot_line15_speaker	blob	iot_line15_speaker
+v_189	iot_line15_content	blob	iot_line15_content
+v_190	iot_line16_speaker	blob	iot_line16_speaker
+v_191	iot_line16_content	blob	iot_line16_content
+v_192	iot_line17_speaker	blob	iot_line17_speaker
+v_193	iot_line17_content	blob	iot_line17_content
+v_194	iot_line18_speaker	blob	iot_line18_speaker
+v_195	iot_line18_content	blob	iot_line18_content
+v_196	iot_line19_speaker	blob	iot_line19_speaker
+v_197	iot_line19_content	blob	iot_line19_content
+v_198	iot_line20_speaker	blob	iot_line20_speaker
+v_199	iot_line20_content	blob	iot_line20_content
+
+
+
+10.4 Seite: Scenario: Volume (PGID 4587520)
+
+Hier platzieren Sie den Text für Ihre Frage. (q_8403225 - Typ 911)
+v_200	volume_line1_speaker	blob	volume_line1_speaker
+v_201	volume_line1_content	blob	volume_line1_content
+v_202	volume_line2_speaker	blob	volume_line2_speaker
+v_203	volume_line2_content	blob	volume_line2_content
+v_204	volume_line3_speaker	blob	volume_line3_speaker
+v_205	volume_line3_content	blob	volume_line3_content
+v_206	volume_line4_speaker	blob	volume_line4_speaker
+v_207	volume_line4_content	blob	volume_line4_content
+v_208	volume_line5_speaker	blob	volume_line5_speaker
+v_209	volume_line5_content	blob	volume_line5_content
+v_210	volume_line6_speaker	blob	volume_line6_speaker
+v_211	volume_line6_content	blob	volume_line6_content
+v_212	volume_line7_speaker	blob	volume_line7_speaker
+v_213	volume_line7_content	blob	volume_line7_content
+v_214	volume_line8_speaker	blob	volume_line8_speaker
+v_215	volume_line8_content	blob	volume_line8_content
+v_216	volume_line9_speaker	blob	volume_line9_speaker
+v_217	volume_line9_content	blob	volume_line9_content
+v_218	volume_line10_speaker	blob	volume_line10_speaker
+v_219	volume_line10_content	blob	volume_line10_content
+v_220	volume_line11_speaker	blob	volume_line11_speaker
+v_221	volume_line11_content	blob	volume_line11_content
+v_222	volume_line12_speaker	blob	volume_line12_speaker
+v_223	volume_line12_content	blob	volume_line12_content
+v_224	volume_line13_speaker	blob	volume_line13_speaker
+v_225	volume_line13_content	blob	volume_line13_content
+v_226	volume_line14_speaker	blob	volume_line14_speaker
+v_227	volume_line14_content	blob	volume_line14_content
+v_228	volume_line15_speaker	blob	volume_line15_speaker
+v_229	volume_line15_content	blob	volume_line15_content
+v_230	volume_line16_speaker	blob	volume_line16_speaker
+v_231	volume_line16_content	blob	volume_line16_content
+v_232	volume_line17_speaker	blob	volume_line17_speaker
+v_233	volume_line17_content	blob	volume_line17_content
+v_234	volume_line18_speaker	blob	volume_line18_speaker
+v_235	volume_line18_content	blob	volume_line18_content
+v_236	volume_line19_speaker	blob	volume_line19_speaker
+v_237	volume_line19_content	blob	volume_line19_content
+v_238	volume_line20_speaker	blob	volume_line20_speaker
+v_239	volume_line20_content	blob	volume_line20_content
+
+
+
+10.5 Seite: Scenario: Weather (PGID 4587524)
+
+Hier platzieren Sie den Text für Ihre Frage. (q_8403234 - Typ 911)
+v_280	weather_line1_speaker	blob	weather_line1_speaker
+v_281	weather_line1_content	blob	weather_line1_content
+v_282	weather_line2_speaker	blob	weather_line2_speaker
+v_283	weather_line2_content	blob	weather_line2_content
+v_284	weather_line3_speaker	blob	weather_line3_speaker
+v_285	weather_line3_content	blob	weather_line3_content
+v_286	weather_line4_speaker	blob	weather_line4_speaker
+v_287	weather_line4_content	blob	weather_line4_content
+v_288	weather_line5_speaker	blob	weather_line5_speaker
+v_289	weather_line5_content	blob	weather_line5_content
+v_290	weather_line6_speaker	blob	weather_line6_speaker
+v_291	weather_line6_content	blob	weather_line6_content
+v_292	weather_line7_speaker	blob	weather_line7_speaker
+v_293	weather_line7_content	blob	weather_line7_content
+v_294	weather_line8_speaker	blob	weather_line8_speaker
+v_295	weather_line8_content	blob	weather_line8_content
+v_296	weather_line9_speaker	blob	weather_line9_speaker
+v_297	weather_line9_content	blob	weather_line9_content
+v_298	weather_line10_speaker	blob	weather_line10_speaker
+v_299	weather_line10_content	blob	weather_line10_content
+v_300	weather_line11_speaker	blob	weather_line11_speaker
+v_301	weather_line11_content	blob	weather_line11_content
+v_302	weather_line12_speaker	blob	weather_line12_speaker
+v_303	weather_line12_content	blob	weather_line12_content
+v_304	weather_line13_speaker	blob	weather_line13_speaker
+v_305	weather_line13_content	blob	weather_line13_content
+v_306	weather_line14_speaker	blob	weather_line14_speaker
+v_307	weather_line14_content	blob	weather_line14_content
+v_308	weather_line15_speaker	blob	weather_line15_speaker
+v_309	weather_line15_content	blob	weather_line15_content
+v_310	weather_line16_speaker	blob	weather_line16_speaker
+v_311	weather_line16_content	blob	weather_line16_content
+v_312	weather_line17_speaker	blob	weather_line17_speaker
+v_313	weather_line17_content	blob	weather_line17_content
+v_314	weather_line18_speaker	blob	weather_line18_speaker
+v_315	weather_line18_content	blob	weather_line18_content
+v_316	weather_line19_speaker	blob	weather_line19_speaker
+v_317	weather_line19_content	blob	weather_line19_content
+v_318	weather_line20_speaker	blob	weather_line20_speaker
+v_319	weather_line20_content	blob	weather_line20_content
+
+
+
+10.6 Seite: Scenario: Joke (PGID 4587527)
+
+Hier platzieren Sie den Text für Ihre Frage. (q_8403235 - Typ 911)
+v_320	joke_line1_speaker	blob	joke_line1_speaker
+v_321	joke_line1_content	blob	joke_line1_content
+v_322	joke_line2_speaker	blob	joke_line2_speaker
+v_323	joke_line2_content	blob	joke_line2_content
+v_324	joke_line3_speaker	blob	joke_line3_speaker
+v_325	joke_line3_content	blob	joke_line3_content
+v_326	joke_line4_speaker	blob	joke_line4_speaker
+v_327	joke_line4_content	blob	joke_line4_content
+v_328	joke_line5_speaker	blob	joke_line5_speaker
+v_329	joke_line5_content	blob	joke_line5_content
+v_330	joke_line6_speaker	blob	joke_line6_speaker
+v_331	joke_line6_content	blob	joke_line6_content
+v_332	joke_line7_speaker	blob	joke_line7_speaker
+v_333	joke_line7_content	blob	joke_line7_content
+v_334	joke_line8_speaker	blob	joke_line8_speaker
+v_335	joke_line8_content	blob	joke_line8_content
+v_336	joke_line9_speaker	blob	joke_line9_speaker
+v_337	joke_line9_content	blob	joke_line9_content
+v_338	joke_line10_speaker	blob	joke_line10_speaker
+v_339	joke_line10_content	blob	joke_line10_content
+v_340	joke_line11_speaker	blob	joke_line11_speaker
+v_341	joke_line11_content	blob	joke_line11_content
+v_342	joke_line12_speaker	blob	joke_line12_speaker
+v_343	joke_line12_content	blob	joke_line12_content
+v_344	joke_line13_speaker	blob	joke_line13_speaker
+v_345	joke_line13_content	blob	joke_line13_content
+v_346	joke_line14_speaker	blob	joke_line14_speaker
+v_347	joke_line14_content	blob	joke_line14_content
+v_348	joke_line15_speaker	blob	joke_line15_speaker
+v_349	joke_line15_content	blob	joke_line15_content
+v_350	joke_line16_speaker	blob	joke_line16_speaker
+v_351	joke_line16_content	blob	joke_line16_content
+v_352	joke_line17_speaker	blob	joke_line17_speaker
+v_353	joke_line17_content	blob	joke_line17_content
+v_354	joke_line18_speaker	blob	joke_line18_speaker
+v_355	joke_line18_content	blob	joke_line18_content
+v_356	joke_line19_speaker	blob	joke_line19_speaker
+v_357	joke_line19_content	blob	joke_line19_content
+v_358	joke_line20_speaker	blob	joke_line20_speaker
+v_359	joke_line20_content	blob	joke_line20_content
+
+
+
+10.7 Seite: Scenario: Conversational (PGID 4587528)
+
+Hier platzieren Sie den Text für Ihre Frage. (q_8403238 - Typ 911)
+v_360	conversational_line1_speaker	blob	conversational_line1_speaker
+v_361	conversational_line1_content	blob	conversational_line1_content
+v_362	conversational_line2_speaker	blob	conversational_line2_speaker
+v_363	conversational_line2_content	blob	conversational_line2_content
+v_364	conversational_line3_speaker	blob	conversational_line3_speaker
+v_365	conversational_line3_content	blob	conversational_line3_content
+v_366	conversational_line4_speaker	blob	conversational_line4_speaker
+v_367	conversational_line4_content	blob	conversational_line4_content
+v_368	conversational_line5_speaker	blob	conversational_line5_speaker
+v_369	conversational_line5_content	blob	conversational_line5_content
+v_370	conversational_line6_speaker	blob	conversational_line6_speaker
+v_371	conversational_line6_content	blob	conversational_line6_content
+v_372	conversational_line7_speaker	blob	conversational_line7_speaker
+v_373	conversational_line7_content	blob	conversational_line7_content
+v_374	conversational_line8_speaker	blob	conversational_line8_speaker
+v_375	conversational_line8_content	blob	conversational_line8_content
+v_376	conversational_line9_speaker	blob	conversational_line9_speaker
+v_377	conversational_line9_content	blob	conversational_line9_content
+v_378	conversational_line10_speaker	blob	conversational_line10_speaker
+v_379	conversational_line10_content	blob	conversational_line10_content
+v_380	conversational_line11_speaker	blob	conversational_line11_speaker
+v_381	conversational_line11_content	blob	conversational_line11_content
+v_382	conversational_line12_speaker	blob	conversational_line12_speaker
+v_383	conversational_line12_content	blob	conversational_line12_content
+v_384	conversational_line13_speaker	blob	conversational_line13_speaker
+v_385	conversational_line13_content	blob	conversational_line13_content
+v_386	conversational_line14_speaker	blob	conversational_line14_speaker
+v_387	conversational_line14_content	blob	conversational_line14_content
+v_388	conversational_line15_speaker	blob	conversational_line15_speaker
+v_389	conversational_line15_content	blob	conversational_line15_content
+v_390	conversational_line16_speaker	blob	conversational_line16_speaker
+v_391	conversational_line16_content	blob	conversational_line16_content
+v_392	conversational_line17_speaker	blob	conversational_line17_speaker
+v_393	conversational_line17_content	blob	conversational_line17_content
+v_394	conversational_line18_speaker	blob	conversational_line18_speaker
+v_395	conversational_line18_content	blob	conversational_line18_content
+v_396	conversational_line19_speaker	blob	conversational_line19_speaker
+v_397	conversational_line19_content	blob	conversational_line19_content
+v_398	conversational_line20_speaker	blob	conversational_line20_speaker
+v_399	conversational_line20_content	blob	conversational_line20_content
+
+
+
+10.8 Seite: Scenario: Alarm (PGID 4587529)
+
+Hier platzieren Sie den Text für Ihre Frage. (q_8403239 - Typ 911)
+v_400	alarm_line1_speaker	blob	alarm_line1_speaker
+v_401	alarm_line1_content	blob	alarm_line1_content
+v_402	alarm_line2_speaker	blob	alarm_line2_speaker
+v_403	alarm_line2_content	blob	alarm_line2_content
+v_404	alarm_line3_speaker	blob	alarm_line3_speaker
+v_405	alarm_line3_content	blob	alarm_line3_content
+v_406	alarm_line4_speaker	blob	alarm_line4_speaker
+v_407	alarm_line4_content	blob	alarm_line4_content
+v_408	alarm_line5_speaker	blob	alarm_line5_speaker
+v_409	alarm_line5_content	blob	alarm_line5_content
+v_410	alarm_line6_speaker	blob	alarm_line6_speaker
+v_411	alarm_line6_content	blob	alarm_line6_content
+v_412	alarm_line7_speaker	blob	alarm_line7_speaker
+v_413	alarm_line7_content	blob	alarm_line7_content
+v_414	alarm_line8_speaker	blob	alarm_line8_speaker
+v_415	alarm_line8_content	blob	alarm_line8_content
+v_416	alarm_line9_speaker	blob	alarm_line9_speaker
+v_417	alarm_line9_content	blob	alarm_line9_content
+v_418	alarm_line10_speaker	blob	alarm_line10_speaker
+v_419	alarm_line10_content	blob	alarm_line10_content
+v_420	alarm_line11_speaker	blob	alarm_line11_speaker
+v_421	alarm_line11_content	blob	alarm_line11_content
+v_422	alarm_line12_speaker	blob	alarm_line12_speaker
+v_423	alarm_line12_content	blob	alarm_line12_content
+v_424	alarm_line13_speaker	blob	alarm_line13_speaker
+v_425	alarm_line13_content	blob	alarm_line13_content
+v_426	alarm_line14_speaker	blob	alarm_line14_speaker
+v_427	alarm_line14_content	blob	alarm_line14_content
+v_428	alarm_line15_speaker	blob	alarm_line15_speaker
+v_429	alarm_line15_content	blob	alarm_line15_content
+v_430	alarm_line16_speaker	blob	alarm_line16_speaker
+v_431	alarm_line16_content	blob	alarm_line16_content
+v_432	alarm_line17_speaker	blob	alarm_line17_speaker
+v_433	alarm_line17_content	blob	alarm_line17_content
+v_434	alarm_line18_speaker	blob	alarm_line18_speaker
+v_435	alarm_line18_content	blob	alarm_line18_content
+v_436	alarm_line19_speaker	blob	alarm_line19_speaker
+v_437	alarm_line19_content	blob	alarm_line19_content
+v_438	alarm_line20_speaker	blob	alarm_line20_speaker
+v_439	alarm_line20_content	blob	alarm_line20_content
+
+
+
+11 Seite: Scenario: Open (PGID 4606577)
+
+Please now think about another situation in which you would like to use the perfect voice assistant. (q_8438532 - Typ 142)
+v_790	scenario_open_description	blob	Scenario: Open Text
+
+
+Hier platzieren Sie den Text für Ihre Frage. (q_8438524 - Typ 911)
+v_750	open_line1_speaker	blob	open_line1_speaker
+v_751	open_line1_content	blob	open_line1_content
+v_752	open_line2_speaker	blob	open_line2_speaker
+v_753	open_line2_content	blob	open_line2_content
+v_754	open_line3_speaker	blob	open_line3_speaker
+v_755	open_line3_content	blob	open_line3_content
+v_756	open_line4_speaker	blob	open_line4_speaker
+v_757	open_line4_content	blob	open_line4_content
+v_758	open_line5_speaker	blob	open_line5_speaker
+v_759	open_line5_content	blob	open_line5_content
+v_760	open_line6_speaker	blob	open_line6_speaker
+v_761	open_line6_content	blob	open_line6_content
+v_762	open_line7_speaker	blob	open_line7_speaker
+v_763	open_line7_content	blob	open_line7_content
+v_764	open_line8_speaker	blob	open_line8_speaker
+v_765	open_line8_content	blob	open_line8_content
+v_766	open_line9_speaker	blob	open_line9_speaker
+v_767	open_line9_content	blob	open_line9_content
+v_768	open_line10_speaker	blob	open_line10_speaker
+v_769	open_line10_content	blob	open_line10_content
+v_770	open_line11_speaker	blob	open_line11_speaker
+v_771	open_line11_content	blob	open_line11_content
+v_772	open_line12_speaker	blob	open_line12_speaker
+v_773	open_line12_content	blob	open_line12_content
+v_774	open_line13_speaker	blob	open_line13_speaker
+v_775	open_line13_content	blob	open_line13_content
+v_776	open_line14_speaker	blob	open_line14_speaker
+v_777	open_line14_content	blob	open_line14_content
+v_778	open_line15_speaker	blob	open_line15_speaker
+v_779	open_line15_content	blob	open_line15_content
+v_780	open_line16_speaker	blob	open_line16_speaker
+v_781	open_line16_content	blob	open_line16_content
+v_782	open_line17_speaker	blob	open_line17_speaker
+v_783	open_line17_content	blob	open_line17_content
+v_784	open_line18_speaker	blob	open_line18_speaker
+v_785	open_line18_content	blob	open_line18_content
+v_786	open_line19_speaker	blob	open_line19_speaker
+v_787	open_line19_content	blob	open_line19_content
+v_788	open_line20_speaker	blob	open_line20_speaker
+v_789	open_line20_content	blob	open_line20_content
+
+
+
+12 Seite: Demographics (PGID 4587224)
+
+What gender do you identify with? (q_8402571 - Typ 111)
+v_52	gender	int	Gender
+1	Male
+2	Female
+3	Non-binary
+4	Prefer not to disclose
+5	Prefer to self-describe
+v_53	gender_selfdescribe	varchar	Prefer to self-describe
+
+
+How old are you? (q_8402588 - Typ 141)
+v_54	age	varchar (mit Typencheck: Ganzzahl)	Age
+
+
+Which degree describes best your highest level of education obtained? (q_8402594 - Typ 111)
+v_55	education	int	Highest Education
+1	No degree
+2	Elementary school degree
+3	General Certificate of Secondary Education / Middle school degree
+4	A-level or equivalent
+5	Bachelor degree or equivalent
+6	Master degree or equivalent
+7	PhD / Doctorate degree
+
+
+Which form of employment best describes your current employment status? (q_8402746 - Typ 111)
+v_56	employment	int	Profession
+1	Employed full-time
+2	Employed part-time
+3	Self-employed
+4	In education (e.g.
+5	Unemployed / job-seeking
+6	Retired / unable to work
+7	Housewife / husband or parental leave
+
+
+
+13.1 Seite: Personality (PGID 4587477)
+
+I am someone who... (q_8403163 - Typ 311)
+v_60	BFI2_1	int	... is outgoing
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_61	BFI2_2	int	... is compassionate
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_62	BFI2_3	int	... tends to be disorganised.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_63	BFI2_4	int	... is relaxed
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_64	BFI2_5	int	... has few artistic interests.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_65	BFI2_6	int	... has an assertive personality.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_66	BFI2_7	int	... is respectful
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_67	BFI2_8	int	... tends to be lazy.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_68	BFI2_9	int	... stays optimistic after experiencing a setback.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_69	BFI2_10	int	... is curious about many different things.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+
+
+I am someone who... (q_8404161 - Typ 311)
+v_450	BFI2_11	int	... rarely feels excited or eager.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_451	BFI2_12	int	... tends to find fault with others.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_452	BFI2_13	int	... is dependable
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_453	BFI2_14	int	... is moody
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_454	BFI2_15	int	... is inventive
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_455	BFI2_16	int	... tends to be quiet.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_456	BFI2_17	int	... feels little sympathy for others.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_457	BFI2_18	int	... is systematic
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_458	BFI2_19	int	... can be tense.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_459	BFI2_20	int	... is fascinated by art
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+
+
+I am someone who... (q_8404162 - Typ 311)
+v_520	BFI2_21	int	... is dominant
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_521	BFI2_22	int	... starts arguments with others.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_522	BFI2_23	int	... has difficulty getting started on tasks.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_523	BFI2_24	int	... feels secure
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_524	BFI2_25	int	... avoids intellectual
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_525	BFI2_26	int	... is less active than other people.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_526	BFI2_27	int	... has a forgiving nature.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_527	BFI2_28	int	... can be somewhat careless.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_528	BFI2_29	int	... is emotionally stable
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_529	BFI2_30	int	... has little creativity.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+
+
+I am someone who... (q_8404164 - Typ 311)
+v_650	BFI2_31	int	... is sometimes shy
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_651	BFI2_32	int	... is helpful and unselfish with others.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_652	BFI2_33	int	... keeps things neat and tidy.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_653	BFI2_34	int	... worries a lot.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_654	BFI2_35	int	... values art and beauty.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_655	BFI2_36	int	... finds it hard to influence people.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_656	BFI2_37	int	... is sometimes rude to others.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_657	BFI2_38	int	... is efficient
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_658	BFI2_39	int	... often feels sad.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_659	BFI2_40	int	... is complex
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+
+
+I am someone who... (q_8404163 - Typ 311)
+v_600	BFI2_41	int	... is full of energy.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_601	BFI2_42	int	... is suspicious of others’ intentions.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_602	BFI2_43	int	... is reliable
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_603	BFI2_44	int	... keeps their emotions under control.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_604	BFI2_45	int	... has difficulty imagining things..
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_605	BFI2_46	int	... is talkative.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_606	BFI2_47	int	... can be cold and uncaring.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_607	BFI2_48	int	... leaves a mess
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_608	BFI2_49	int	... rarely feels anxious or afraid.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_609	BFI2_50	int	... thinks poetry and plays are boring.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+
+
+I am someone who... (q_8404165 - Typ 311)
+v_730	BFI2_51	int	... prefers to have others take charge.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_731	BFI2_52	int	... is polite
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_732	BFI2_53	int	... is persistent
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_733	BFI2_54	int	... tends to feel depressed
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_734	BFI2_55	int	... has little interest in abstract ideas.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_735	BFI2_56	int	... shows a lot of enthusiasm.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_736	BFI2_57	int	... assumes the best about people.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_737	BFI2_58	int	... sometimes behaves irresponsibly.
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_738	BFI2_59	int	... is temperamental
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+v_739	BFI2_60	int	... is original
+1	disagree strongly
+2	disagree a little
+3	neutral; no opinion
+4	agree a little
+5	agree strongly
+
+
+
+14 Seite: Internal end page (PGID 4593546)
