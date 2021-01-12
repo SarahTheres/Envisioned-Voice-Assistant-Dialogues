@@ -57,6 +57,16 @@ In addition to writing down dialogues between a user and a voice assistant, we a
 ## Participants
 We recruited participants using the crowdsourcing web platform <a href="https://www.prolific.co">Prolific</a>. After excluding three participants due to incomplete answers, our sample consisted of 205 participants from the UK (48.8% male, 50.7% female, 0.5% non-binary, mean age 36.2 years, range: 18--80 years). 
 
+# Explanation of Data Files
+
+
+
+## Note on dialogues
+In a separate task, transcription of crowdsourced user utterances from the two-person dialogs were checked for errors but may still include an occasional typo, misspelling or ungrammatical sequence. In cases where a dialog failed to make sense, workers doing these corrections were given the freedom to insert or delete turns or replace entire phrases with language that made the dialog follow a more sensible path. Shorthand typing conventions originally used by the call center operators such as 'cuz', 'lol' and other non-standard English phrases were left as is. Disfluencies such as 'they um, they want Korean cuisine' were also usually transcribed as spoken, but sometimes transcribers corrected them.
+
+
+# Copyright and Reference
+
 ## Reference
 A full description of our research design, data collection, and analyses can be found in the paper below. Please cite this paper in your work where relevant. 
 
@@ -76,13 +86,6 @@ series = {CHI '21}
 ## Copyright
 This is the work of Sarah Theres Völkel, Daniel Buschek, Malin Eiband, Benjamin R. Cowan, and Heinrich Hussmann from LMU Munich, University of Bayreuth, and University College Dublin, made available under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>. 
 
-
-# Explanation of Data Files
-
-
-
-## Note on dialogues
-In a separate task, transcription of crowdsourced user utterances from the two-person dialogs were checked for errors but may still include an occasional typo, misspelling or ungrammatical sequence. In cases where a dialog failed to make sense, workers doing these corrections were given the freedom to insert or delete turns or replace entire phrases with language that made the dialog follow a more sensible path. Shorthand typing conventions originally used by the call center operators such as 'cuz', 'lol' and other non-standard English phrases were left as is. Disfluencies such as 'they um, they want Korean cuisine' were also usually transcribed as spoken, but sometimes transcribers corrected them.
 
 # Contact
 In case you have any comments or questions, please contact sarah.voelkel@ifi.lmu.de
