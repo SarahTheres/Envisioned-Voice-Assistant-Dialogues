@@ -58,7 +58,11 @@ In addition to writing down dialogues between a user and a voice assistant, we a
 We recruited participants using the crowdsourcing web platform <a href="https://www.prolific.co">Prolific</a>. After excluding three participants due to incomplete answers, our sample consisted of 205 participants from the UK (48.8% male, 50.7% female, 0.5% non-binary, mean age 36.2 years, range: 18--80 years). 
 
 # Explanation of Data Files
+You find three versions of our data set:
 
+* (1) **Raw Data:** Original data, cleaned up with labelled columns
+* (2) **Preprocessed Data:** Original data including the calculated personality scores based on the BFI-2 questionnaire
+* (3) **Readable Dialogues:** For reading the dialogues instead of data processing, we provide participants' IDs and the corresponding dialogues in a readable format
 
 
 ## Note on dialogues
